@@ -1,12 +1,10 @@
 import streamlit as st
 import numpy
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 import plotly.express as px
 
 # Importando o datasets
-barragem = pd.read_csv('dataframe final.csv',encoding='latin1')
+barragem = pd.read_csv('/home/gustavo/Documentos/teste/dataframe final.csv',encoding='latin1')
 
 topicos = ['Sobre o projeto','Análise inicial','Análise por mapa','Análise por cluster']
 barra_lateral = st.sidebar.empty()
